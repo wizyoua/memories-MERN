@@ -15,7 +15,7 @@ app.use('/posts', postRoutes);
 
 //mongo db cloud atlas version
 //we will secure this later
-const CONNECTION_URL = '';
+const CONNECTION_URL = 'mongodb+srv://vurdio123:vurdio123@cluster0.n10mw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 const PORT = process.env.PORT|| 5000;
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true })
